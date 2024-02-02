@@ -7,13 +7,13 @@ import java.awt.*;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.TreeMap;
 import java.util.Map;
 import java.util.Set;
 
 public class ObjectSetNode extends AbstractSetNode {
 
-    private Map<GraphEdge, Rectangle2D> pointerMap = new HashMap<>();
+    private Map<GraphEdge, Rectangle2D> pointerMap = new TreeMap<>();
 
     private static final int BOX_WIDTH = 40;
     private static final int BOX_HEIGHT = 28;
